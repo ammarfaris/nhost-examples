@@ -5,8 +5,8 @@ Here is an example on how to reproduce the Nhost stack from a docker-compose fil
 ## Configuration
 
 ```sh
-git clone https://github.com/nhost/nhost
-cd nhost/examples/docker-compose
+git clone https://github.com/ammarfaris/nhost-examples
+cd nhost-selfhost
 cp .env.example .env
 docker-compose up -d
 ```
