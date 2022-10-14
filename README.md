@@ -1,11 +1,11 @@
-# This is a fork filtered to get only the docker-compose portion
-Awesome project nhost, check them out!
-
-## Docker-compose example
+# Docker-compose example
 
 Here is an example on how to reproduce the Nhost stack from a docker-compose file.
 
-### Configuration
+## This is a fork filtered to get only the docker-compose portion
+Awesome project [nhost](https://nhost.io/), check them out!
+
+## Configuration
 
 ```sh
 git clone https://github.com/ammarfaris/nhost-selfhost
