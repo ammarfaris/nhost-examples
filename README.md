@@ -1,11 +1,14 @@
-# Docker-compose example
+# This is a fork filtered to get only the docker-compose portion
+Awesome project nhost, check them out!
+
+## Docker-compose example
 
 Here is an example on how to reproduce the Nhost stack from a docker-compose file.
 
-## Configuration
+### Configuration
 
 ```sh
-git clone https://github.com/ammarfaris/nhost-examples
+git clone https://github.com/ammarfaris/nhost-selfhost
 cd nhost-selfhost
 cp .env.example .env
 docker-compose up -d
