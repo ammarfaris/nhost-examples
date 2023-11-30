@@ -11,9 +11,19 @@ Awesome project [nhost](https://nhost.io/), check them out!
 ```sh
 git clone https://github.com/ammarfaris/nhost-selfhost
 cd nhost-selfhost
+vim .env
+vim docker-compose.yml
+docker compose up -d
+```
+
+OR
+
+```sh
+git clone https://github.com/ammarfaris/nhost-selfhost
+cd nhost-selfhost
 cp .env.example .env
 vim docker-compose.yml
-docker-compose up -d
+docker compose up -d
 ```
 
 The following endpoints are now exposed:
