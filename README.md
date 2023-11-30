@@ -13,6 +13,7 @@ git clone https://github.com/ammarfaris/nhost-selfhost
 cd nhost-selfhost
 vim .env
 vim docker-compose.yml
+cd cert && vim ca-cert.crt
 docker compose up -d
 ```
 
@@ -23,6 +24,7 @@ git clone https://github.com/ammarfaris/nhost-selfhost
 cd nhost-selfhost
 cp .env.example .env
 vim docker-compose.yml
+cd cert && vim ca-cert.crt
 docker compose up -d
 ```
 
