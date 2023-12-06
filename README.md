@@ -14,6 +14,7 @@ cd nhost-selfhost
 vim .env
 vim docker-compose.yml
 cd cert && vim ca-cert.crt
+cd ..
 docker compose up -d
 ```
 
@@ -25,6 +26,7 @@ cd nhost-selfhost
 cp .env.example .env
 vim docker-compose.yml
 cd cert && vim ca-cert.crt
+cd ..
 docker compose up -d
 ```
 
