@@ -6,6 +6,8 @@ Here is an example on how to reproduce the Nhost stack from a docker-compose fil
 
 Awesome project [nhost](https://nhost.io/), check them out!
 
+Note: Added Caddyfile incase we want to go with Caddy instead of Traefik
+
 ## Configuration
 
 ```sh

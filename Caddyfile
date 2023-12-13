@@ -1,0 +1,8 @@
+# https://github.com/hasura/graphql-engine/blob/master/install-manifests/docker-compose-https/README.md
+# replace :80 with your domain name to get automatic https via LetsEncrypt
+# subdomain.mydomain.com {
+#  reverse_proxy graphql-engine:8080
+#}
+:80 {
+  reverse_proxy graphql-engine:8080
+}
